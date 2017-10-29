@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: black;
+  /*border: 2px solid black;*/
+  /*background-color: rgba(0,0,0,0.1);*/
+  /*text-align: center;*/
+}
+
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+#jukebox {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+#sc-art-box {
+  display: inline-block;
+}
+
+#sc-text-box {
+  border: 1px solid black;
+  display: inline-block;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+button {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: steelblue;
+  color: lightsalmon;
+}
+
+button:hover {
+	background-color: lightsalmon;
+  color: steelblue;
+	animation: color_change 1s;
+}

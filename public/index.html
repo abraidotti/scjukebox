@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Soundcloud-powered Jukebox</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="jukebox">
+
+    <div id="sc-art-box">
+      <img src="#" alt="#" id="sc-artwork">
+    </div>
+
+    <div id="sc-text-box">
+      <div id="sc-artist"></div>
+      <a href="" id="sc-artist-url"></a>
+      <div id="sc-song-title"></div>
+      <a href="" id="sc-song-url"></a>
+      <div id="sc-description"></div>
+      <div id="sc-genre"></div>
+      <div id="sc-created"></div>
+
+      <div id="sc-button-box">
+        <button id="sc-play">Play</button>
+        <button id="sc-pause">Pause</button>
+        <button id="sc-seek-back">-15 sec</button>
+        <button id="sc-seek-forward">+15 sec</button>
+        <button id="sc-vol-down">Volume -</button>
+        <button id="sc-vol-up">Volume +</button>
+        <button id="sc-reload">Next random track</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://connect.soundcloud.com/sdk/sdk-3.2.2.js"></script>
+  <script src="js/env.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
